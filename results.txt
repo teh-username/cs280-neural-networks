@@ -1,0 +1,35 @@
+# gives 66 - 69
+architecture = {
+    'inputs': 354,
+    'layers': [7, 9, 11],
+    'outputs': 8,
+    'eta': 0.1,
+    'error_margin': 0.00002
+}
+
+# gives 68 - 70
+architecture = {
+    'inputs': 354,
+    'layers': [11, 9, 7],
+    'outputs': 8,
+    'eta': 0.1,
+    'error_margin': 0.00002
+}
+
+{
+  'outputs': 8,
+  'inputs': 354,
+  'layers': [15, 7],
+  'eta': 0.1,
+  'error_margin': 5e-05
+}
+
+# 69 - 72
+architecture = {
+    'inputs': 354,
+    'layers': [15, 7],
+    'outputs': 8,
+    'eta': 0.1,
+    'error_margin': 0.00005
+}
+
